@@ -129,8 +129,13 @@ function gameOver() {
     };
 };
 
-//Calling startGame launches game.
-startGame();
+//Calling startGame when launchgame button is clicked will launch game.
+
+
+//delays start of game until HTML has loaded, game runs automatically after 3seconds
+setTimeout(()=>{
+    document.getElementById("launchBtn").addEventListener("click", startGame());
+},3000);
+
 
 //when player hand is bigger than dealer hand it skips letting the player know they've won and goes straight to the tally.
-//take confirm y/n off - have alert for true and false though!
