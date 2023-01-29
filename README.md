@@ -34,6 +34,8 @@ If both player and computer stick, the winner is whoevers hand is closest to 21 
 Each card dealt has a value between 2 and 11.
 On starting the game you will be dealt two cards, so have a hand with a value between 4 and 22
 The computer starts with one card, and will play its turn when the player has decided to stick.
+
+
 -----
 ## Develpoment
 
