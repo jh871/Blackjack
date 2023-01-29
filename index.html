@@ -4,14 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Blackjack game</title>
 </head>
 
 <body>
-
-    <h1 style="text-align:center"> Let;s play Blackjack! </h1>
-
-    <script src="script.js"></script>
-
+    <div class="heading">
+        <h1 id="mainHeading"> Let's play Blackjack! </h1>
+        <div >
+            <img id="acesHeader"
+            class="headImg" 
+            src="assets/images/acesheader.jpg" height="100px">
+        </div>
+    </div>
+    
+    <div class="mainBod">
+        
+        <div id="background">
+            <div class="instructions">
+                <div class="btn">
+                    <button type="button" id="launchBtn">
+                        Launch Game
+                    </button>
+                </div>
+                <div class="instructionsCard">
+                    <h2>How to play</h2>
+                    <p>Try and get as close to 21 as possible!  
+                    <p>If you get 21 you win!</p>
+                    <p>If you get above 21, you lose! </p>
+                    <p>If you get below 21 you can TWIST to add another card </p>
+                    <p>If you think you're close enough to 21 you can STICK to stay where you are. </p>
+                    <p>If the dealer comes closer to 21 than you, the dealer wins!</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+    <script src="assets/script.js" defer></script>
+    
 </body>
 </html>
